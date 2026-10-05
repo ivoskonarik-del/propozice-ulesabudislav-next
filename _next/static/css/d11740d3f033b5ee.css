@@ -13,3 +13,5 @@
 .doplnime-cenik dt{color:var(--ink)}
 .doplnime-cenik dd{margin:0;color:var(--hneda);font-weight:700;white-space:nowrap}
 @media (max-width:860px){.doplnime{grid-template-columns:minmax(0,1fr);padding:var(--sp-4)}}
+
+@media (min-width:1024px) and (max-width:1199px){.header .container{gap:var(--sp-3)}.nav{gap:0}.nav a:not(.btn){padding:var(--sp-2) var(--sp-2)}.nav-cta{margin-left:var(--sp-2)}}
